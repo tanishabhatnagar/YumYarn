@@ -23,7 +23,7 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={`navbar bg-orange flex align-center ${scrolled ? 'scrolled': ""}`}>
+    <nav className={`navbar bg-pink flex align-center ${scrolled ? 'scrolled': ""}`}>
       <div className='container w-100'>
         <div className='navbar-content text-white'>
           <div className='brand-and-toggler flex align-center justify-between'>
@@ -43,4 +43,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

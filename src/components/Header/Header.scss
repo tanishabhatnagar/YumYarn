@@ -5,6 +5,8 @@
     position: relative;
     z-index: 999;
     transition: $transition;
+    background-color: #f70776; // Change the background color to the new color
+    transition: background-color 0.3s ease;
 
     .navbar-brand-text{
         margin-left: 5px;
@@ -19,7 +21,10 @@
     top: 0;
     left: 0;
     width: 100%;
+    background-color: darken(#f70776, 10%);
 }
+
+
 
 .header{
     .header-content{

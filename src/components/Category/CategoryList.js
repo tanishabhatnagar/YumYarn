@@ -4,7 +4,7 @@ import "./Category.scss";
 
 const CategoryList = ({categories}) => {
   return (
-    <div className='section-wrapper bg-whitesmoke'>
+    <div className='section-wrapper bg-white'>
         <div className='container'>
           <div className='sc-title'>categories</div>
           <section className='sc-category grid'>
@@ -16,7 +16,7 @@ const CategoryList = ({categories}) => {
                   <Link to = {`/meal/category/${title}`} className = "category-itm align-center justify-center" key = {id}>
                     <div className='category-itm-img h-100 w-100 flex align-center justify-center'>
                       <img src = {thumbnail} alt = {title} />
-                      <div className='category-itm-title bg-orange'>
+                      <div className='category-itm-title bg-pink'>
                         <h3 className='text-white fs-11 fw-6 ls-1 text-uppercase'>{title}</h3>
                       </div>
                     </div>
